@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{360B18BD-653A-4824-9261-C88167EEBAD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0544BC01-B569-4729-86B0-5AFDBF7EED46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test_integration", "test_integration", "{42E4078C-4FBE-4B03-B889-1573332945A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B771F515-0677-409B-BEC1-B84BC88E7392}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+		btcpayserver-logo.png = btcpayserver-logo.png
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTCPayServer.Client", "src\BTCPayServer.Client\BTCPayServer.Client.csproj", "{E0208BE2-65CB-4221-A7F7-417F67B7CD94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BTCPayServer.Client.Tests", "test\BTCPayServer.Client.Tests\BTCPayServer.Client.Tests.csproj", "{66193E02-3FB4-42D9-BB31-C4053D311BFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0208BE2-65CB-4221-A7F7-417F67B7CD94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0208BE2-65CB-4221-A7F7-417F67B7CD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0208BE2-65CB-4221-A7F7-417F67B7CD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0208BE2-65CB-4221-A7F7-417F67B7CD94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66193E02-3FB4-42D9-BB31-C4053D311BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66193E02-3FB4-42D9-BB31-C4053D311BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66193E02-3FB4-42D9-BB31-C4053D311BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66193E02-3FB4-42D9-BB31-C4053D311BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0208BE2-65CB-4221-A7F7-417F67B7CD94} = {360B18BD-653A-4824-9261-C88167EEBAD2}
+		{66193E02-3FB4-42D9-BB31-C4053D311BFF} = {0544BC01-B569-4729-86B0-5AFDBF7EED46}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE3E0B94-CF20-4C22-B50B-E720E8DFD675}
+	EndGlobalSection
+EndGlobal

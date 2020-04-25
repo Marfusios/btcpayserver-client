@@ -1,0 +1,19 @@
+language: csharp
+dotnet: 2.1.803
+os: linux
+dist: bionic
+mono: latest
+sudo: required
+
+install:
+before_script:
+script:
+- dotnet build -c Release
+- dotnet test test/BTCPayServer.Client.Tests -c Release
+deploy:
+  provider: script
+  skip_cleanup: true
+  script:
+    - cd src/BTCPayServer.Client && dotnet pack /p:PackageVersion=1.0.4.$TRAVIS_BUILD_NUMBER -c Release && cd bin/Release && dotnet nuget push **/*.1.0.4.$TRAVIS_BUILD_NUMBER.nupkg -k $NUGET_API_KEY -s https://api.nuget.org/v3/index.json
+  on:
+    branch: master

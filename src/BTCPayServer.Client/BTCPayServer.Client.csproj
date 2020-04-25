@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <PackageId>btcpayserver.Client</PackageId>
+        <Version>1.0.4</Version>
+        <Authors>Mariusz Kotas</Authors>
+        <Description>Client for BTCPay server</Description>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageReleaseNotes>Release of version 1.0</PackageReleaseNotes>
+        <Copyright>Copyright 2020 Mariusz Kotas. All rights reserved.</Copyright>
+        
+        <PackageTags>btcpayserver client bitcoin btcpay</PackageTags>
+        <PackageLicense>https://github.com/Marfusios/btcpayserver-client/blob/master/LICENSE</PackageLicense>
+        <PackageProjectUrl>https://github.com/Marfusios/btcpayserver-client</PackageProjectUrl>
+        <PackageIconUrl>https://raw.githubusercontent.com/Marfusios/btcpayserver-client/master/src/BTCPayServer.Client/icon.png</PackageIconUrl>
+        <PackageIcon>icon.png</PackageIcon>
+        <RepositoryUrl>https://github.com/Marfusios/btcpayserver-client</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile> 
+        <AssemblyVersion>1.0.4.0</AssemblyVersion>
+        <FileVersion>1.0.4.0</FileVersion>
+        
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="NBitcoin" Version="5.0.33" />
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <None Include="icon.png" Pack="true" PackagePath="" />
+    </ItemGroup>
+
+</Project>
