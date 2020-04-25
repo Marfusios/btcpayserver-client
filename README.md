@@ -3,6 +3,8 @@
 
 This is a C# client for BTCPayServer. Taken from [official repository](https://github.com/btcpayserver/btcpayserver/tree/master/BTCPayServer.Client) and bundled into Nuget package.
 
+*[WIP] Not yet ready!* 
+
 [Releases and breaking changes](https://github.com/Marfusios/btcpayserver-client/releases)
 
 ### License: 
@@ -11,7 +13,7 @@ This is a C# client for BTCPayServer. Taken from [official repository](https://g
 ### Features
 
 * installation via NuGet ([BTCPayServer.Client](https://www.nuget.org/packages/BTCPayServer.Client))
-* targeting .NET Standard 2.1 (.NET Core, Linux/MacOS compatible)
+* targeting .NET Standard 2.0 (.NET Core, Linux/MacOS compatible)
 
 ### Usage
 
