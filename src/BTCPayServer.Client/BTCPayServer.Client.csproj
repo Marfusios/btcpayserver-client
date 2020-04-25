@@ -5,7 +5,7 @@
         <PackageId>BTCPayServer.Client</PackageId>
         <Version>1.0.4</Version>
         <Authors>Mariusz Kotas</Authors>
-        <Description>Client for BTCPay server</Description>
+        <Description>Client for BTCPay Server</Description>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageReleaseNotes>Release of version 1.0</PackageReleaseNotes>
         <Copyright>Copyright 2020 Mariusz Kotas. All rights reserved.</Copyright>
