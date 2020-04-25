@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
-        <PackageId>btcpayserver.Client</PackageId>
+        <PackageId>BTCPayServer.Client</PackageId>
         <Version>1.0.4</Version>
         <Authors>Mariusz Kotas</Authors>
         <Description>Client for BTCPay server</Description>
