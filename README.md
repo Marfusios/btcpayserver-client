@@ -1,5 +1,5 @@
 ![Logo](btcpayserver-logo.png)
-# BTCPay Server .NET client [![Build Status](https://travis-ci.com/Marfusios/btcpayserver-client.svg?branch=master)](https://travis-ci.com/Marfusios/btcpayserver-client) [![NuGet version](https://badge.fury.io/nu/BTCPayServer.Client.svg)](https://www.nuget.org/packages/BTCPayServer.Client) [![Nuget downloads](https://img.shields.io/nuget/dt/BTCPayServer.Client)](https://www.nuget.org/packages/BTCPayServer.Client)
+# BTCPay Server client [![Build Status](https://travis-ci.com/Marfusios/btcpayserver-client.svg?branch=master)](https://travis-ci.com/Marfusios/btcpayserver-client) [![NuGet version](https://badge.fury.io/nu/BTCPayServer.Client.svg)](https://www.nuget.org/packages/BTCPayServer.Client) [![Nuget downloads](https://img.shields.io/nuget/dt/BTCPayServer.Client)](https://www.nuget.org/packages/BTCPayServer.Client)
 
 This is a C# client for BTCPayServer. Taken from [official repository](https://github.com/btcpayserver/btcpayserver/tree/master/BTCPayServer.Client) and bundled into Nuget package.
 
