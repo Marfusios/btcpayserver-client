@@ -17,7 +17,7 @@ This is a C# client for BTCPayServer. Taken from [official repository](https://g
 
 ### Usage (legacy API)
 
-**Server side: **
+* **Server side:**
 ```csharp
 
 // create an invoice
@@ -45,7 +45,7 @@ var existingInvoice = await client.GetInvoice(invoiceId, invoiceToken);
 ```
 
 
-**Client side: **
+* **Client side:**
 
 ```html
 
@@ -64,15 +64,15 @@ window.btcpay.onModalWillLeave(yourCallbackFunction);
 
 ### Usage (new API)
 
-*Not implemented on BTCPay Server yet*
+* *Not implemented on BTCPay Server yet*
 
 
 More usage examples:
 * console sample ([link](test_integration/BTCPayServer.Client.Sample/Program.cs))
 
-
 **Pull Requests are welcome!**
 
+---
 
 ### Available for help
 I do consulting, please don't hesitate to contact me if you have a custom solution you would like me to implement ([web](http://mkotas.cz/), 
