@@ -32,6 +32,10 @@ namespace BTCPayServer.Client.Legacy
 
         public Uri RedirectUrl { get; set; }
 
+        public bool FullNotifications { get; set; } = true;
+
+        public bool ExtendedNotifications { get; set; } = true;
+
         public override string ToString()
         {
             return $"Invoice - price: {Price} {Currency}";

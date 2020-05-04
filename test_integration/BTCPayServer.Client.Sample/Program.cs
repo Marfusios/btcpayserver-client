@@ -10,7 +10,6 @@ namespace BTCPayServer.Client.Sample
         private static readonly string API_KEY = "your_api_key";
 
 
-
         static async Task Main(string[] args)
         {
             Console.WriteLine("BTCPay Server - client");
@@ -20,11 +19,13 @@ namespace BTCPayServer.Client.Sample
             var invoice = await client.CreateInvoice(new InvoiceRequestLegacy()
             {
                 Currency = "USD",
-                Price = 100m,
+                Price = 0.99m,
                 ItemDesc = "Payment for my_store_order",
                 OrderId = "my_store_order::xxxyyy",
-                NotificationUrl = new Uri("https://webhook.site/03b96bf0-dbd3-4da0-b3d1-54aa5e7f794c"),
-                RedirectUrl = new Uri("https://webhook.site/03b96bf0-dbd3-4da0-b3d1-54aa5e7f794c")
+                NotificationUrl = new Uri("https://webhook.site/2d2e50dd-0b10-4634-b591-542e1408f4da"),
+                RedirectUrl = new Uri("https://webhook.site/2d2e50dd-0b10-4634-b591-542e1408f4da"),
+                FullNotifications = true,
+                ExtendedNotifications = true
             });
 
             Console.WriteLine($"Invoice created, id: {invoice.Id}, order: {invoice.OrderId}");

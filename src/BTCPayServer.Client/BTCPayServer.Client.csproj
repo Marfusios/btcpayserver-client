@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.0</TargetFramework>
+        <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
         <PackageId>BTCPayServer.Client</PackageId>
         <Version>1.0.4</Version>
         <Authors>Mariusz Kotas</Authors>
